@@ -1,0 +1,29 @@
+[
+    {
+        "id":"1",
+        "link":"",
+        "name":"DESIGNING EV SMART CHARGING SCHEDULING BASED ON V2G CONTOL MODE USING MATLAB/SIMULINK",
+        "Description":"WORKSHOP",
+        "venue":"Virtual Session",
+        "date":"29th-30th March, 2025"
+    },
+    
+    {
+        "id":"2",
+        "link":"",
+        "name":"INSTITUTE INDUSTRY INTERACTION PROGRAM WITH TPSDI",
+        "Description":"Seminar",
+        "venue":"CII Auditorium, IEM , Kolkata",
+        "date":"4th February, 2025"
+    },
+    {
+        "id":"3",
+        "link":"",
+        "name":"AI: CODE THE FUTURE - HACKATHON, POSTEGREN, ARTS MEET AI, SHUTTER SHOWDOWN & REELATHON",
+        "Description":"Hackathon",
+        "venue":"Online Mode",
+        "date":"19th - 21st October, 2024"
+    }
+    
+
+]
