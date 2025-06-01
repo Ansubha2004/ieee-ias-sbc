@@ -71,7 +71,7 @@ function Navbar2() {
       </button>
       <div
         className={clsx(
-          "sm:hidden absolute top-[4.6rem] right-0  w-3/5 bg-green-950 h-[calc(100vh-4.5rem)] flex flex-col items-end box-border py-5 text-white text-[1.1rem] font-bold   transition-transform ease-in-out duration-400",
+          "sm:hidden absolute top-[4.3rem] right-0  w-3/5 bg-green-950 h-[calc(100vh-4.5rem)] flex flex-col items-end box-border py-5 text-white text-[1.1rem] font-bold   transition-transform ease-in-out duration-400",
           active ? "translate-x-0" : "translate-x-full"
         )}
       >

@@ -34,4 +34,7 @@
      .paratext{
         @apply text-justify text-[0.9rem] text-zinc-500;
      }
+     .arrowbutton {
+        @apply text-lime-700 active:opacity-[0.8] hover:opacity-[0.8] cursor-pointer active:scale-[0.95] md:active:scale-[0.8] transition-all duration-100 ease-in-out
+     }
 }

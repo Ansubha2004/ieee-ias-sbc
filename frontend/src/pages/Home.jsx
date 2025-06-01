@@ -7,6 +7,7 @@ import ieeeiaspic from "../assets/images/ieeeiaspic.png";
 import Homeevents from "../components/Homeevents.jsx";
 import Socialhandle from "../components/Socialhandle.jsx";
 import Homegallery from "../components/Homegallery.jsx";
+import Formbanner from "../components/Formbanner.jsx"
 
 function Home() {
   const Points = [
@@ -64,7 +65,7 @@ function Home() {
             </p>
             <br />
             <Button
-              Content="Join IEEE IAS"
+              Content="Join our Student's Chapter"
               themecss="btn1 px-[7%]"
               click={() => {
                 window.open(
@@ -89,7 +90,8 @@ function Home() {
         <Homeevents />
         <br />
       </div>
-      <Socialhandle />
+      <Formbanner />
+      
       <br />
       <div className="box-border flex flex-col items-center px-[5%] pb-[3%]">
         <p className="heading text-[2.2rem] text-center  leading-9">
