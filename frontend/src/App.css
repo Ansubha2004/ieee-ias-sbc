@@ -37,4 +37,7 @@
      .arrowbutton {
         @apply text-lime-700 active:opacity-[0.8] hover:opacity-[0.8] cursor-pointer active:scale-[0.95] md:active:scale-[0.8] transition-all duration-100 ease-in-out
      }
+     .iconanimate{
+      @apply hover:scale-[0.95] active:scale-[0.95] hover:opacity-[0.8] cursor-pointer;
+     }
 }

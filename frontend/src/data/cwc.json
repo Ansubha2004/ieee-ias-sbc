@@ -1,0 +1,62 @@
+[
+    {
+        "id":"1",
+        "name":"Dr. Prof Sourav Das",
+        "role":"Founder and Advisor",
+        "image":"Sourav",
+        "description":"The IEEE-Industry Applications Society (IAS) Student Branch Chapter (SBC), Code: IA14301D, was established in 2024 at the Institute of Engineering and Management (IEM), Kolkata. Since its inception, the chapter has been actively fostering industry-academia collaboration and technical excellence. It currently operates under the dynamic leadership of Prof. Dr. Sourav Das from the Department of Electrical Engineering, IEM Kolkata, guiding students towards innovation and professional growth in industrial applications of electrical and electronic engineering.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":"https://www.linkedin.com/in/dr-sourav-das-phd-bb003092/"
+        },
+        {
+            "platform":"mail",
+            "link":"sourav.das@iem.edu.in"
+        }]
+    },
+    {
+        "id":"2",
+        "name":"Sneha Das",
+        "role":"Chairperson",
+        "image":"Sneha",
+        "description":"Oversees the planning and execution of student-driven technical initiatives, promotes industry-oriented learning, and facilitates collaboration within the chapter to advance innovation in industrial applications of electrical and electronic engineering.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":"https://www.linkedin.com/in/sneha-das-2oo4/"
+        },
+        {
+            "platform":"mail",
+            "link":"sneha.das2022@iem.edu.in"
+        }]
+    },
+    {
+        "id":"3",
+        "name":"Avi Kundu",
+        "role":"Vice Chairperson",
+        "image":"Avi",
+        "description":"Supports the leadership team in organizing technical events, coordinating member activities, and promoting interdisciplinary engagement to enhance student involvement in industrial applications of electrical and electronic engineering.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":"https://www.linkedin.com/in/avi-kundu-78885628a/"
+        },
+        {
+            "platform":"mail",
+            "link":"avi.kundu2022@iem.edu.in"
+        }]
+    },
+    {
+        "id":"4",
+        "name":"Asmit Sil",
+        "role":"Treasurer",
+        "image":"Asmit",
+        "description":"Manages financial planning and budgeting for chapter activities, ensures transparent allocation of resources, and supports the execution of technical initiatives aligned with the chapter’s objectives in industrial applications of electrical and electronic engineering.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":""
+        },
+        {
+            "platform":"mail",
+            "link":"asmit.sil2022@iem.edu.in"
+        }]
+    }
+]
