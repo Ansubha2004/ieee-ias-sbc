@@ -48,9 +48,9 @@ We invite enthusiastic students from the Electrical Engineering department and a
 ## 📬 Contact Us
 
 For queries, collaborations, or membership details, feel free to connect with us at:  
-📧 **[Your Official Email]**  
-🌐 **[Your Website URL]**  
-🔗 **[Social Media Handles or GitHub Pages]**
+📧 ieeeias.iem@gmail.com
+🌐 https://ieee-ias-sbc.vercel.app/
+
 
 ---
 
