@@ -61,10 +61,11 @@ function Contact() {
   return (
     <>
       <Contactheader />
-      <div className="relative  min-h-[calc(100vh-240px)] flex flex-col justify-start mt-7 items-center z-[1] box-border  px-[2%]">
-        <div className="w-full h-auto flex justify-between items-start gap-4">
+      <div className="relative  min-h-[calc(100vh-240px)] flex flex-col justify-start  items-center z-[1] box-border px-[5%]  sm:px-[2%]">
+        < div className="w-full h-auto flex sm:flex-row flex-col justify-between items-start gap-4">
           <Joinposter />
-          <div className="h-auto box-border py-8 px-15  w-full rounded-[10px] bg-gradient-to-r from-gray-300 via-slate-50 to-gray-300 ">
+          <Socialbanner additionalcss="sm:hidden" />
+          <div className="h-auto box-border py-8 px-5 sm:px-15  w-full rounded-[10px] bg-gradient-to-r from-gray-300 via-slate-50 to-gray-300 ">
             <p className="text-center heading">Get in Touch</p>
             <p className="subheading text-center">Your Queries Matter</p>
             <br />
@@ -72,7 +73,7 @@ function Contact() {
               onSubmit={handlesubmit}
               className="  flex flex-col items-center gap-3"
             >
-              <div className="w-full flex gap-2">
+              <div className="w-full flex sm:flex-row flex-col gap-2">
                 <input
                   type="text"
                   onChange={handlechange}
@@ -103,14 +104,16 @@ function Contact() {
 
               <Button
                 type="submit"
-                themecss="btn1 w-full mt-2 flex justify-center items-center"
+                themecss="btn1 w-full sm:mt-2 mt-8 flex justify-center items-center"
                 Content="Submit"
               />
             </form>
           </div>
-          <Socialbanner />
+          <Socialbanner additionalcss="sm:flex hidden" />
         </div>
       </div>
+      <p className="subheading text-center font-[400] italic text-[1.1rem] sm:mt-0 mt-7 sm:text-[1.6rem]">If already a member of IEEE-IAS, <a href="" className="bg-gradient-to-r from-lime-600 to-green-800 text-transparent bg-clip-text font-[900]">Click Here</a></p>
+      <br />
     </>
   );
 }

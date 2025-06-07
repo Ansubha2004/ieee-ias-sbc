@@ -42,6 +42,12 @@
      }
      .inputbox
      {
-      @apply w-full box-border outline-none py-2 px-5 border-solid border-[2px] rounded-[10px] border-white focus:border-green-700 focus:placeholder-green-700 bg-white;
+      @apply w-full box-border outline-none sm:py-2 py-4 px-5 border-solid border-[2px] rounded-[10px] border-white focus:border-green-700 focus:placeholder-green-700 bg-white;
+     }
+     .icon{
+      @apply rounded-l-full rounded-r-full border-solid border-lime-700 text-lime-700 border-[2px] p-3 sm:p-1;
+     }
+     .icon1{
+      @apply text-white  bg-lime-700 rounded-[3px] p-3 sm:p-1;
      }
 }
