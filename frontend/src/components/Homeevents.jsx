@@ -15,7 +15,7 @@ function Homeevents() {
           Recent Highlights
         </p>
         <div className="flex flex-col w-full items-start gap-7 ">
-          {Events.slice(1).map((event, index) => (
+          {Events.slice(Events.length-3).map((event, index) => (
             <div key={index}>
               <a className="text-lime-800 font-[700] hover:underline" href={event.link}>{event.name}</a>
               <div className="paratext  w-full flex text-[0.8rem] gap-1">
