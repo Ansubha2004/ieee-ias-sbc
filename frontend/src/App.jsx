@@ -5,8 +5,9 @@ import Navbar2 from "./components/Navbar2.jsx";
 import Home from "./pages/Home.jsx";
 import CWC from "./pages/CWC.jsx"
 import Footer from "./components/Footer.jsx"
-import {Routes,Route} from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Contact from "./pages/Contact.jsx"
+import Events from "./pages/Events.jsx";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <Navbar />
       <Navbar2 />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Memberinfo" element={<CWC/>}/>
-        <Route path="/Contact" element={<Contact />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/Memberinfo" element={<CWC />} />
+        <Route path="/Events" element={<Events />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
 
       <Footer />
