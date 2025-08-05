@@ -46,6 +46,36 @@
     },
     {
         "id":"4",
+        "name":"Debosmita Gorai",
+        "role":"Secretary",
+        "image":"Debosmita",
+        "description":"Supports the leadership team by managing communications, maintaining official records, and coordinating meetings and events. Plays a key role in organizing technical activities, engaging members, and fostering interdisciplinary collaboration to enhance student participation in the field of industrial electronics, including automation, power electronics, and embedded systems.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":"https://www.linkedin.com/in/debosmita-gorai-47706528b/"
+        },
+        {
+            "platform":"mail",
+            "link":"debosmita.gorai2023@iem.edu.in"
+        }]
+    },
+    {
+        "id":"5",
+        "name":"Arka Goswami",
+        "role":"Webmaster",
+        "image":"Arka",
+        "description":"Responsible for designing, developing, and maintaining the chapter’s digital presence. Manages the official website, updates content related to events, achievements, and announcements, and ensures seamless online engagement. Supports the chapter’s mission by enhancing visibility, promoting technical activities, and enabling effective communication through digital platforms.",
+        "socialmedia":[{
+            "platform":"LinkedIn",
+            "link":"https://www.linkedin.com/in/arka-goswami-635945287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        },
+        {
+            "platform":"mail",
+            "link":"arka.goswami2023@iem.edu.in"
+        }]
+    },
+    {
+        "id":"6",
         "name":"Asmit Sil",
         "role":"Treasurer",
         "image":"Asmit",
@@ -59,4 +89,5 @@
             "link":"asmit.sil2022@iem.edu.in"
         }]
     }
+
 ]

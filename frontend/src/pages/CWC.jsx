@@ -6,9 +6,11 @@ import Cwccard from "../components/cwccard.jsx";
 import Sneha from "../assets/cwc/Sneha.jpeg";
 import Avi from "../assets/cwc/Avi.jpeg";
 import Asmit from "../assets/cwc/Asmit.jpeg";
+import Arka from "../assets/cwc/Arka.jpeg";
+import Debosmita from "../assets/cwc/Debosmita.jpeg";
 
 function CWC() {
-  const pp = [Sneha, Avi, Asmit];
+  const pp = [Sneha, Avi,Debosmita,Arka, Asmit];
 
   return (
     <div className="relative  min-h-[calc(100vh-90px)] flex flex-col items-center z-[1] box-border  px-[7%]">
@@ -74,7 +76,7 @@ function CWC() {
       </div>
       <br />
       <br />
-      <div className="w-full flex sm:flex-row flex-col flex-wrap gap-5 justify-around">
+      <div className="w-full flex sm:flex-row flex-col flex-wrap gap-5 justify-center  space-y-5">
         {cwc
           .filter((member) => member.id !== "1")
           .map((member) => (
