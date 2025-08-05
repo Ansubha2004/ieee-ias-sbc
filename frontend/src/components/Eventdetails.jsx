@@ -19,7 +19,7 @@ function Eventdetails({ image, name, description, venue, date, gallery, details,
                         <p>{description}</p>
                     </div>
                     <div className="w-full flex flex-col justify-around items-center mt-3">
-                        <p className="paratext text-[0.8rem] ">{details}</p>
+                        
                         <Button themecss="btn1 my-[20px] " click={()=>window.open(gallery)} Content="View Gallery" />
                     </div>
                 </div>
